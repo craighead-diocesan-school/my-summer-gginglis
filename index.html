@@ -48,7 +48,7 @@
     <div>
       <img src="IMG_0255.jpeg" alt="riva">
       <img src="IMG_0265.jpeg" alt="orchard">
-      <img src="IMG_0349.jpeg" alt="featherston">
+      <img src="IMG_0349.jpeg" alt="cape palliser">
       <img src="IMG_7107.jpeg" alt="fairy">
       <img src="IMG_8963.jpeg" alt="g getting sunburnt">
     </div>
@@ -88,6 +88,7 @@
     margin-left: 5%;
     text-shadow: .5px .5px #b07800;
     padding: 1.5%;
+
   }
 
   ul {
@@ -114,9 +115,26 @@
     font-family: 'Arima', cursive;
     font-size: 1em;
     color: rgb(255, 255, 255);
-    margin: 5%;
+    /* margin: 5%; */
     text-shadow: .5px .5px #b20015;
     padding: 1%;
+  }
+
+  body {
+    display: grid;
+    grid: " h    m    .  " auto " .    m    . " auto " .    m    f  " auto / auto auto auto;
+  }
+
+  header {
+    grid-area: h;
+  }
+
+  main {
+    grid-area: m;
+  }
+
+  footer {
+    grid-area: f;
   }
 
   a:hover {
